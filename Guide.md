@@ -1,12 +1,10 @@
 # The Ultimate Guide for Gamers and Day-to-Day-Users of Win10!!
 
-**======================================INDEX================================================**
+## INDEX
 
 
--------------------------------------------------------------------------------------------
-
-**// 1. Windows 10 \\**
-- Prevent needing to restart your pc on program crashes
+### [Windows 10](#windows-10)
+- Prevent needing to restart your PC on program crashes
 - Windows 10 Telemetry, Cortana and More
 - Debloat Windows 10 !!Caution advised!!
 - Programs you should consider downloading
@@ -18,18 +16,17 @@
 - Interface performance boost
 - Set File Explorer to open "This PC" as default
 
-------------------------------------------------------------------------------------------
 
-**// 2. Browser Configuration \\**
+### [Browser Configuration](#browser-configuration)
 - How to set up your Firefox Browser
 - How to set up your Brave Browser
 - How to set up your Un-Googled Chromium
 - uBlock Origin Settings
 - Recommended Add-Ons
 
-------------------------------------------------------------------------------------------
 
-**// 3. Body, Posture and Health \\**
+
+### [Body, Posture and Health](#body-posture-and-health)
 - Prevent back pain
 - Hand + wrist exercises
 - Improve and train your eyesight
@@ -40,38 +37,33 @@
 - Healthy food to gain energy (real performance boost)
 - How improve your chair and desk setup
 
-------------------------------------------------------------------------------------------
 
-**// 4. Mouse \\**
+### [Mouse](#mouse)
 - Grip styles
 - What mouse to use
 - How to find a sensitivity that sticks for you (FPS Games)
 - Practice aiming motions (Aim Lab)
 
-------------------------------------------------------------------------------------------
 
-**// 5. Keyboard \\** 
+
+### [Keyboard](#keyboard)
 - Learn the HOT and TRENDY keyboard terms
 - How to safely clean your keyboard
 - Useful shortcuts for Windows users
 
 ------------------------------------------------------------------------------------------
 
+## Windows 10 
 
-**===========================================================================================**
-
-
-
-**// 1. Windows 10 \\**
-
-Enhancing and debloating your windows should help not only your sanity but also your pcs performance
+#### Enhancing and debloating your windows should help not only your sanity but also your PCs performance
 
 
-- Prevent needing to restart your pc on program crashes
+- Prevent needing to restart your PC on program crashes
 
-  1. press "Ctrl" + "Shift" + "Esc" (your task manager should be open now)
-   1a. Go into "Options" -> click on "Always on top"
-	1b. now the Task Manager will always be in the front of any application, no Alt+F4 and pc restart fiddling anymore
+  1. press "Ctrl" + "Shift" + "Esc" (your task manager should be open now
+
+		+ Go into "Options" -> click on "Always on top"
+   		+ now the Task Manager will always be in the front of any application, no Alt+F4 and pc restart fiddling anymore
 
 
 - Windows 10 Telemetry, Cortana and More (more privacy oriented)
@@ -83,9 +75,11 @@ Enhancing and debloating your windows should help not only your sanity but also 
 
 - Debloat Windows 10
 
-This topic is about a debloating script i forked and worked on as best as i can, i will try to explain exactly what this script will be doing. I made two different scripts depending if you want to get the option to install programms and the debloating or just run the debloating.
-  You can find the list of progrmms you can install here:
-  This will do the following steps/functions:
+	This topic is about a debloating script i forked and worked on as best as i can, i will try to explain exactly what this script will be doing. I made two different scripts depending if you want to get the option to install programs and the debloating or just run the debloating.
+  
+  You can find the list of programs you can install here:
+  
+    This will do the following steps/functions:
 
     - Removes all Windows Store Apps EXCEPT office, Xbox, and WSL.
     - Removed Telemetry
@@ -99,50 +93,52 @@ This topic is about a debloating script i forked and worked on as best as i can,
 		Now the steps to activate the script:
 		1. Right Click Windows Menu -> Select PowerShell Prompt (Admin) OR Select Command Prompt (Admin)
 		2. Now you can decide between a script running the install prompts or a script running without any.
-		3. type in or paste for no installs: "iex(New-Object Net.WebClient).DownloadString('https://git.io/Jkc16')"
-		4. type in or paste for installs: "iex((New-Object System.Net.WebClient).DownloadString('https://git.io/JkZwQ'))"
+		3. type in or paste for no installs: 		
+		  `iex(New-Object Net.WebClient).DownloadString('https://git.io/Jkc16')`
+		4. type in or paste for installs: 
+		  `iex((New-Object System.Net.WebClient).DownloadString('https://git.io/JkZwQ'))`
 		5. now it will run the scripts and do the stuff mentioned above.
 
 
-- Programs you should consider downloading
+#### Programs you should consider downloading
 
-Important is that nobody said you have, to have them all but some might seem usefull to you, i will mark the ones i deem as important with (*)
+> Important is that nobody said you have, to have them all but some might seem usefull to you, i will mark the ones i deem as important with (*)
 
-*   ~ [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) => this is a program that gathers information on some of the main devices of your system,
+- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) → this is a program that gathers information on some of the main devices of your system,
    its very handy if you want to look up your Hardware specs (your BIOS can be lied at, CPU-Z is actually good at for example detecting fake hardware)
-*  ~ [KeepassXC](https://keepassxc.org/download) => must have password manager, don't argue with me, you need it!
-*  ~ [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime Text](https://www.sublimetext.com/3) => both are great text editors!
-*  ~ [Geek Uninstaller](https://geekuninstaller.com/download) => great tool to COMPLETELY get rid of a program, this tool will even delete the registry entries
-*  ~ [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) or [Brave Browser](https://laptop-updates.brave.com/latest/winx64) => both are great browsers to surf the web on. (stay away from Chrome, Opera and Microsoft Edge!!)
-*  ~ [Prime95](https://www.mersenne.org/download/] => Prime95 has been a popular choice for stress / torture testing a CPU since its introduction, especially with overclockers and system builders
-*  ~ [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) => manage your executables that launch with windows automatically and more for example the explorer context menu
-   ~ [ImageGlass](https://imageglass.org/download) => one of my favourite image viewing tools
-   ~ [TeraCopy](https://www.codesector.com/downloads) => copy your files faster and more securely, this tool is great if you work a lot with files
-   ~ [LinkShellExtension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) => move your game files around without breaking the game
-   ~ [Avidemux](https://sourceforge.net/projects/avidemux/files/latest/download?nowrap) => a free video editor to cut, filter, and encode projects (that simple)
-   ~ [OpenShot Video Editor](https://www.openshot.org/download/) => it is what it says, a convenient video editor
-   ~ [Audacity](https://www.audacityteam.org/download/) => Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems
-   ~ [OBS Studio]https://obsproject.com/download) or [Streamlabs](https://streamlabs.com/slobs/download) => if you want to record or stream anything on your PC
-   ~ [NZXT Cam](https://www.nzxt.com/downloads) => manage your game times and also get a nice looking overlay to look at your CPU and GPU temps etc
-   ~ [Mumble](https://www.mumble.info/downloads/) => this is basically teamspeak but with a far better audio quality and more privacy oriented
-   ~ [Ninite](https://ninite.com/) => quickly set up your pc by choosing what programms you want to have installed and get them automatically installed with Ninite
-   ~ [OCCT](https://www.ocbase.com/) => popular all-in-one stability check & stress test tool
-   ~ [Total Commander](https://www.ghisler.com/ddownload.htm) or [Multi Commander](http://multicommander.com/downloads) => ein Shareware- Dateimanager für Windows / Ersetzt den File Explorer von Windows
-   ~ [Process Hacker](https://processhacker.sourceforge.io/downloads.php) => A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware (in short: a more detailed Task Manager)
-   ~ [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm/releases) => this tool lets you idle steam games for the trading cards
-   ~ [RPCS3](https://rpcs3.net/download) => RPCS3 is a Sony PlayStation 3 emulator and debugger, play PS3 games on your PC
-   ~ [Gameranger](https://www.gameranger.com/download/) => play old multiplayer games once again with your friends (most servers are down on old games, this tool fixes this problem)
-   ~ [Parsec Gaming](https://builds.parsecgaming.com/package/parsec-windows.exe) => play local games online with your friends
+- [KeepassXC](https://keepassxc.org/download) → must have password manager, don't argue with me, you need it!
+- [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime Text](https://www.sublimetext.com/3) → both are great text editors!
+- [Geek Uninstaller](https://geekuninstaller.com/download) → great tool to COMPLETELY get rid of a program, this tool will even delete the registry entries
+- [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) or [Brave Browser](https://laptop-updates.brave.com/latest/winx64) → both are great browsers to surf the web on. (stay away from Chrome, Opera and Microsoft Edge!!)
+- [Prime95](https://www.mersenne.org/download/) → Prime95 has been a popular choice for stress / torture testing a CPU since its introduction, especially with overclockers and system builders
+- [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) → manage your executables that launch with windows automatically and more for example the explorer context menu
+- [ImageGlass](https://imageglass.org/download) → one of my favourite image viewing tools
+- [TeraCopy](https://www.codesector.com/downloads) → copy your files faster and more securely, this tool is great if you work a lot with files
+- [LinkShellExtension](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html#contact) → move your game files around without breaking the game
+- [Avidemux](https://sourceforge.net/projects/avidemux/files/latest/download?nowrap) → a free video editor to cut, filter, and encode projects (that simple)
+- [OpenShot Video Editor](https://www.openshot.org/download/) → it is what it says, a convenient video editor
+- [Audacity](https://www.audacityteam.org/download/) → Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems
+- [OBS Studio](https://obsproject.com/download) or [Streamlabs](https://streamlabs.com/slobs/download) → if you want to record or stream anything on your PC
+- [NZXT Cam](https://www.nzxt.com/downloads) → manage your game times and also get a nice looking overlay to look at your CPU and GPU temps etc
+- [Mumble](https://www.mumble.info/downloads/) → this is basically teamspeak but with a far better audio quality and more privacy oriented
+- [Ninite](https://ninite.com/) → quickly set up your pc by choosing what programms you want to have installed and get them automatically installed with Ninite
+- [OCCT](https://www.ocbase.com/) → popular all-in-one stability check & stress test tool
+- [Total Commander](https://www.ghisler.com/ddownload.htm) or [Multi Commander](http://multicommander.com/downloads) → a Shareware- Filemanager for Windows; replaces the file explorer from Windows
+- [Process Hacker](https://processhacker.sourceforge.io/downloads.php) → A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware (in short: a more detailed Task Manager)
+- [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm/releases) → this tool lets you idle steam games for the trading cards
+- [RPCS3](https://rpcs3.net/download) → RPCS3 is a Sony PlayStation 3 emulator and debugger, play PS3 games on your PC
+- [Gameranger](https://www.gameranger.com/download/) → play old multiplayer games once again with your friends (most servers are down on old games, this tool fixes this problem)
+- [Parsec Gaming](https://builds.parsecgaming.com/package/parsec-windows.exe) → play local games online with your friends
 
 
 - Check the system for integrity
 
-   ~ You may want to check your system for integrity issues(especially after updates), run the following in cmd (you can either find it here: "C:\WINDOWS\system32\cmd.exe" or
+   - You may want to check your system for integrity issues(especially after updates), run the following in cmd (you can either find it here: "C:\WINDOWS\system32\cmd.exe" or
    if you type in "cmd" in the search bar on windows):
-		~ sfc /scannow
-		~ dism /Online /Cleanup-Image /AnalyzeComponentStore /StartComponentCleanup /ResetBase
-		~ dism /Online /Cleanup-Image /ScanHealth
-		~ dism /Online /Cleanup-Image /RestoreHealth
+		- sfc /scannow
+		- dism /Online /Cleanup-Image /AnalyzeComponentStore /StartComponentCleanup /ResetBase
+		- dism /Online /Cleanup-Image /ScanHealth
+		- dism /Online /Cleanup-Image /RestoreHealth
 !!Be careful this could remove AntiCheat programms running in the image enviroment, this should be safe for most installs though!!
 
 
@@ -150,8 +146,8 @@ Important is that nobody said you have, to have them all but some might seem use
 
 If you have problems with windows update it can cause quite a hassle
 
-~ You can download a diagnostic tool [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors)
-~ Let it run and see if it fixes any windows update problems
+- You can download a diagnostic tool [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors)
+- Let it run and see if it fixes any windows update problems
 
 
 - CPU and Memory Performance
@@ -176,11 +172,10 @@ If you have problems with windows update it can cause quite a hassle
   3. Now look for any services that you don't need and untick them (remember to not disable any Anti-Cheat or AntiVirus Services)
 
 
+## Browser Configuration
 
-**// 2. Browser Configuration \\**
 
-
-- How to set up your Firefox Browser
+### How to set up your Firefox Browser
 
    1. Download "profile.zip" from either the discord server or DM me
    2. Press "Windows Key" + "R" on the keyboard. A Run dialog will open
@@ -195,52 +190,52 @@ If you have problems with windows update it can cause quite a hassle
 		9b. Check if its set to "Ask every time where to save the file to" if not select it.
 		9c. Go to "Home" -> "Homepage and New Tab" change it to User defined address
 		9d. Paste in this: https://duckduckgo.com/
-		9e. Go to "Search" and change the Default Searchengine to DuckDuckGo instead of Google!!
+		9e. Go to "Search" and change the Default Search-engine to DuckDuckGo instead of Google!!
 		9f. Scroll down and remove every search engine except DuckDuckGo and Startpage
 		9g. Click the menu icon on the top right -> "Add-Ons" -> click on the cogwheel symbol -> "Check for Updates"
 		9h. Follow the "uBlock Origin Settings" topic in this guide
    10. Your Firefox is now ready to go!
 
 
-- How to set up your Brave Browser
+### How to set up your Brave Browser
 
-  1. First of all DO NOT skip the welcome tour!!
-  2. You don't have to import bookmarks and settings, if you have freshly installed Firefox Browser with this Guide you can import from Mozilla Firefox otherwise just move on!
-  3. On "Set default search engine" you can decide between "DuckDuckGo" or "Qwant"
-  4. DONT enable "Brave Rewards" !!
-  5. Go to the Menu (top right corner) -> "Settings" -> "On Startup" topic select "Open a specific page or set of pages" -> "Add a new page"
-  6. Depending on what search engine you chose at the tour type in "DuckDuckGo.com" for DuckDuckGo or "Qwant.com" for Qwant
-  7. "Appearance" -> you want this checked: "Hide Brave Rewards button", "Show home button" 
-     (Enter custom address: "DuckDuckGo.com" for DuckDuckGo or "Qwant.com" for Qwant) and "Show bookmarks"
-  8. "New Tab Page" -> uncheck "Brave Rewards"
-  9. "Shields" -> "Default View" set it to "Advanced View"
-  10. "Extensions" -> "Web3 provider for using Dapps" set it to "None"
-  11. Disable "Hangouts"
-  12. "Additional settings" -> "Privacy and security" -> check "Send a "Do Not Track" request with your browsing traffic" -> 
-       uncheck "Allow sites to check if you have payment methods saved"
-  13. Your Brave is now ready to go! 	
+1. First of all DO NOT skip the welcome tour!!
+2. You don't have to import bookmarks and settings, if you have freshly installed Firefox Browser with this Guide you can import from Mozilla Firefox otherwise just move on!
+3. On "Set default search engine" you can decide between "DuckDuckGo" or "Qwant"
+4. DONT enable "Brave Rewards" !!
+5. Go to the Menu (top right corner) -> "Settings" -> "On Startup" topic select "Open a specific page or set of pages" -> "Add a new page"
+6. Depending on what search engine you chose at the tour type in "DuckDuckGo.com" for DuckDuckGo or "Qwant.com" for Qwant
+7. "Appearance" -> you want this checked: "Hide Brave Rewards button", "Show home button" 
+ (Enter custom address: "DuckDuckGo.com" for DuckDuckGo or "Qwant.com" for Qwant) and "Show bookmarks"
+8. "New Tab Page" -> uncheck "Brave Rewards"
+9. "Shields" -> "Default View" set it to "Advanced View"
+10. "Extensions" -> "Web3 provider for using Dapps" set it to "None"
+11. Disable "Hangouts"
+12. "Additional settings" -> "Privacy and security" -> check "Send a "Do Not Track" request with your browsing traffic" -> 
+   uncheck "Allow sites to check if you have payment methods saved"
+13. Your Brave is now ready to go! 	
 (Check out "Recommended Add-Ons" in this Guide too! Brave Browser doesn't need uBlock Origin! Also it is not compatible with Mozilla addons but the Chrome Store)
 
 
-- How to set up your Un-Googled Chromium
+### How to set up your Un-Googled Chromium
 
-   1. [Download the latest release here](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
-   2. Go to menu in the top right corner -> "Settings" -> "Appearance" -> "Search engine" -> "Search engine used in the address bar" set to "DuckDuckGo"
-   3. "Advanced" -> "System" -> uncheck "Use hardware acceleration when available"
-   4. go to chrome://flags/#extension-mime-request-handling in your address bar -> set the highlighted option to "Always prompt for install" -> "Relaunch"
-   5. Now download the following Add-On:
-   6. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dcjpalhdlnbpafiamejdnhcphjbkeiagm%26installsource%3Dondemand%26uc
-    7. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dgcbommkclmclpchllfjekcdonpmejbdp%26installsource%3Dondemand%26uc
-    8. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dlckanjgmijmafbedllaakclkaicjfmnk%26installsource%3Dondemand%26uc
-    9. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Djchobbjgibcahbheicfocecmhocglkco%26installsource%3Dondemand%26uc
-    10. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dpkehgijcmpdhfbdbbnkijodmdjhbjlgp%26installsource%3Dondemand%26uc
-    11. [Chromium Web Store](https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.1.1/Chromium.Web.Store.crx)
-   12. Now on the right corner there should be a puzzle icon, click it -> click on the icon ![Icon](https://www.imagebanana.com/s/big/1942/puvEBBW5.png) and update every extension
-   13. Follow the "uBlock Origin Settings" topic in this guide.
-   14. Your Un-Googled Chromium is now ready to go!
+1. [Download the latest release here](https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/)
+2. Go to menu in the top right corner -> "Settings" -> "Appearance" -> "Search engine" -> "Search engine used in the address bar" set to "DuckDuckGo"
+3. "Advanced" -> "System" -> uncheck "Use hardware acceleration when available"
+4. go to chrome://flags/#extension-mime-request-handling in your address bar -> set the highlighted option to "Always prompt for install" -> "Relaunch"
+5. Now download the following Add-On:
+6. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dcjpalhdlnbpafiamejdnhcphjbkeiagm%26installsource%3Dondemand%26uc
+7. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dgcbommkclmclpchllfjekcdonpmejbdp%26installsource%3Dondemand%26uc
+8. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dlckanjgmijmafbedllaakclkaicjfmnk%26installsource%3Dondemand%26uc
+9. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Djchobbjgibcahbheicfocecmhocglkco%26installsource%3Dondemand%26uc
+10. https://clients2.google.com/service/update2/crx?response=redirect&acceptformat=crx2,crx3&prodversion=86.0.4240.183&x=id%3Dpkehgijcmpdhfbdbbnkijodmdjhbjlgp%26installsource%3Dondemand%26uc
+11. [Chromium Web Store](https://github.com/NeverDecaf/chromium-web-store/releases/download/v1.1.1/Chromium.Web.Store.crx)
+12. Now on the right corner there should be a puzzle icon, click it -> click on the icon ![Icon](images/chromestore_icon.png) and update every extension
+13. Follow the "uBlock Origin Settings" topic in this guide.
+14. Your Un-Googled Chromium is now ready to go!
 
 
-- uBlock Origin Settings
+#### uBlock Origin Settings
 
 This will explain how to set up your Extension to the best settings without breaking any site (meaning functions not working or logins failing)
 
@@ -252,34 +247,33 @@ This will explain how to set up your Extension to the best settings without brea
 		1e. Follow to this [link](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) and follow the "Extra installation steps 		    for uBlock Origin" instructions, to "Subscribe" simply click on the Hyperlink and press OK on the Popup Window.
 
 
-- Recommended Add-Ons (mainly focused for Firefox (the Mozilla addons page))
+### Recommended Add-Ons (mainly focused for Firefox (the Mozilla addons page))
 
 Less is better, the ones with a (*) are the ones i deem as important. Don't use any antivirus or vpn addons not only are they not very effective as you might think, they are also a very big privacy issues!!
 
-*  ~ Ublock Origin										  It is not just an "ad blocker", it's a wide-spectrum content blocker
-   ~ Privacy Badger									  Intelligent blocker for tracking, this addon learns from your browsing behaviour and gets stronger the longer you use it
-*  ~ HTTPS Everywhere									An extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it
-   ~ NeatURL											      Clears unneeded parameters from urls to keep them understandable and short
-*  ~ ClearURLS											    Gets rid of unneeded parameters including ones that track you
-*  ~ Decentraleyes									  	Protects you against tracking through content delivery services
-   ~ CSS Exfil Protection							Protection against the CSS Exfil Exploit used to track you
-   ~ Smart Referer									   	Improve your privacy by limiting Referrer information leaks
-   ~ Canvas Blocker									  Blocks you against Canvas-Fingerprinting
-   ~ xBrowserSync										  Sync up your browser securely even across devices
-   ~ Chameleon										    	A User-Agent-Switcher packed with a lot of privacy enhancing features
-   ~ User-Agent Switcher and Manager		Spoof the "User Agent Header" that gets send
-   ~ Terms of Service; Didn't Read			Shows you how "friendly" the Terms of Service of a website are through a grading system
-   ~ Bloody Vikings!									  Make spam email addresses on the fly
-   ~ Dark Reader										    No longer get blinded by white websites
-*  ~ Don't touch my tabs!      				Tell Tabs not to spy on each other
-   ~ Disconnect										    Visualize and block the otherwise invisible websites that track your search and browsing history (the same as uBlock Origin or Privacy Badger)
-   ~ KeePassXC-Browser									Add-On for your KeepassXC, no longer tedious logins on websites
-   ~ Bitwarden											    Passwordmanager for your browser
-   ~ Image Search Options							Right-click on an image and you will get an option between different search engines where you can check if it has been uploaded somewhere else
-   ~ JavaScript Switcher								Turn off JavaScript on sites, this can enhance your privacy but will also break some sites
+- Ublock Origin: It is not just an "ad blocker", it's a wide-spectrum content blocker
+- Privacy Badger: Intelligent blocker for tracking, this addon learns from your browsing behaviour and gets stronger the longer you use it
+- HTTPS Everywhere: An extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it
+- NeatURL: Clears unneeded parameters from urls to keep them understandable and short
+- ClearURLS: Gets rid of unneeded parameters including ones that track you
+- Decentraleyes: Protects you against tracking through content delivery services
+- CSS Exfil Protection							Protection against the CSS Exfil Exploit used to track you
+- Smart Referer									   	Improve your privacy by limiting Referrer information leaks
+- Canvas Blocker									  Blocks you against Canvas-Fingerprinting
+- xBrowserSync										  Sync up your browser securely even across devices
+- Chameleon										    	A User-Agent-Switcher packed with a lot of privacy enhancing features
+- User-Agent Switcher and Manager		Spoof the "User Agent Header" that gets send
+- Terms of Service; Didn't Read			Shows you how "friendly" the Terms of Service of a website are through a grading system
+- Bloody Vikings!									  Make spam email addresses on the fly
+- Dark Reader										    No longer get blinded by white websites
+- Don't touch my tabs!      				Tell Tabs not to spy on each other
+- Disconnect										    Visualize and block the otherwise invisible websites that track your search and browsing history (the same as uBlock Origin or Privacy Badger)
+- KeePassXC-Browser									Add-On for your KeepassXC, no longer tedious logins on websites
+- Bitwarden											    Passwordmanager for your browser
+- Image Search Options							Right-click on an image and you will get an option between differOnsOnsent search engines where you can check if it has been uploaded somewhere else
+- JavaScript Switcher								Turn off JavaScript on sites, this can enhance your privacy but will also break some sites
 
-
-- Interface performance boost
+### Interface performance boost
 
 This will help you a bit with your pc performance if you have older hardware mostly this is no longer a huge difference
 
@@ -300,7 +294,7 @@ This will remove the "recently opened files" section when you open the file expl
 
 
 
-**// 3. Body, Posture and Health \\**
+## Body, Posture and Health
 
 Fight against soreness, pain and bad posture. Work on your Health/Body. Trust me this is important and can also drastically improve your performance!
 
@@ -330,35 +324,35 @@ Fight against soreness, pain and bad posture. Work on your Health/Body. Trust me
 - How to stay calm and make rational decisions
 [Instruction Video](https://youtu.be/5ddI9KWHZ6U?t=19)
 
-   >> Also you can press down on your inner palm of your Hand, in the center of it, with the thumb of your other hand, this is a calming technique that might work for you.
+   > Also you can press down on your inner palm of your Hand, in the center of it, with the thumb of your other hand, this is a calming technique that might work for you.
 [Example Video](https://www.youtube.com/watch?v=FJ77DYyfI0w)
 
 
 - What food should you eat and how can you really boost yourself for gaming (no its not sugar or energy drinks)
 [Video Guide](https://www.youtube.com/watch?v=C0fC7cLQJEg)
 
-   >> Don't be scared of fat in food and TLDW; eating avocado, sunflower oil, eggs, chocolate or fish is important and good
+   > Don't be scared of fat in food and TLDW; eating avocado, sunflower oil, eggs, chocolate or fish is important and good
 [Video talking about the topic](https://www.youtube.com/watch?v=j87OxqFkwaU)
 
 
 - Healthier Snacks to try
 
-   ~ Ditch: Potato chips / Try: Toasted pita bread and hummus or veggies with different dips
-   ~ Ditch: Cookies / Try: Mixed nuts with dried fruit
-   ~ Ditch: Sour Patch Kids Candy / Try: Frozen grapes or oatmeal (look for ones with as less sugar as possible)
-   ~ Ditch: Nachos / Try: String cheese and beef jerky
-   ~ Ditch: Hot Pockets / Try: Hard boiled eggs
+   - Ditch: Potato chips / Try: Toasted pita bread and hummus or veggies with different dips
+   - Ditch: Cookies / Try: Mixed nuts with dried fruit
+   - Ditch: Sour Patch Kids Candy / Try: Frozen grapes or oatmeal (look for ones with as less sugar as possible)
+   - Ditch: Nachos / Try: String cheese and beef jerky
+   - Ditch: Hot Pockets / Try: Hard boiled eggs
 
 
 - Healthy food to gain energy (real performance boost)
 
-   ~ Bananas
-   ~ Fatty fish
-   ~ Brown rice
-   ~ Sweet potatoes
-   ~ Coffee (It's not recommended to consume over 400mg of caffeine or about 4 cups of coffee per day!!!)
-   ~ Eggs
-   ~ Apples
+   - Bananas
+   - Fatty fish
+   - Brown rice
+   - Sweet potatoes
+   - Coffee (It's not recommended to consume over 400mg of caffeine or about 4 cups of coffee per day!!!)
+   - Eggs
+   - Apples
 
 
 - How to setup and improve your chair and desk
@@ -367,13 +361,14 @@ Also be sure to get a footrest; not only is it really comfy but it is also not i
 
 
 
-**// 4. Mouse \\**
+## Mouse
 
 Finding the right mouse and actually improving your movement will do wonders for you, also trying to prevent strain is very, very important!
 
 
 - Grip styles:
-![Grip Styles+Explanation](https://image.slidesharecdn.com/gamingmouse-160116084647/95/all-you-need-to-know-about-your-gaming-mouse-5-638.jpg?cb=1452934052)
+
+    ![Grip Styles+Explanation](https://image.slidesharecdn.com/gamingmouse-160116084647/95/all-you-need-to-know-about-your-gaming-mouse-5-638.jpg?cb=1452934052)
 
 
 - What mouse to use:
@@ -392,11 +387,11 @@ Finding the right mouse and actually improving your movement will do wonders for
 This Tutorial shows you how to safely change your rubber cable to a paracord one, its pretty easy to explain why this is good: paracord cables are more durable meaning it will hold waaaay longer than those rubber cables
 [Video Guide](https://www.youtube.com/watch?v=HlxCfYajXLU)
 
-   >> https://paracablemods.co.uk/ where you can get the corded cables (paracords)
+   > https://paracablemods.co.uk/ where you can get the corded cables (paracords)
 
 
 
-**// 5. Keyboard \\**
+## Keyboard
 
 There is nothing much to talk about when it comes to the keyboard, sadly all that makes a difference in choosing a keyboard right now is what type of mechanical keycaps you want to use.
 Since I think there is nothing other then opinion based videos out there you should try finding the perfect keyboard for yourself.
@@ -409,20 +404,20 @@ https://www.howtogeek.com/310370/all-those-confusing-mechanical-keyboard-terms-e
 - How to safely clean your keyboard
 [Video Guide](https://www.youtube.com/watch?v=_M42Ri3dqoc)
 
-   >> cleaning kit, this is not a recommendation but more like a orientation for yourself, please refer to the video :)
+   > cleaning kit, this is not a recommendation but more like a orientation for yourself, please refer to the video :)
    [Amazon Link: Hagibis Multitool Keyboard Cleaner](https://www.amazon.com/dp/B07WRJRXR3/135-6928239-6153718?language=en_US)
 
 
 - Useful Shortcuts for Windows Users
 
-   ~ "Shift" and "click" on an application on the taskbar will either = open it or quickly open another instance of it
-   ~ "Ctrl" + "Shift" + "click" a taskbar button = opens an application as an administrator
-   ~ File Explorer Shortcuts:
-		~ "Ctrl" + "N" = opens a new window
-		~ "Ctrl" + "W" = closes the active window
-   ~ "Windows key" + "D" = displays and hide the desktop
-   ~ "Windows key" + "E" = opens the File Explorer
-   ~ "Windows key" + "I" = opens Windows Settings
-   ~ "Windows key" + "comma ',' " = lets you temporarily peek at the desktop
-   ~ "Windows key" + "Shift" + "S" = this will take a screenshot of part of  your screen (you can freely select what is being screenshoted)
-		>> to send the screenshot simply press "Ctrl" + "V" in the chat- or textbox if you want to save it open any image editor and press "Ctrl" + "V", now you can save the project/screenshot
+   - "Shift" and "click" on an application on the taskbar will either = open it or quickly open another instance of it
+   - "Ctrl" + "Shift" + "click" a taskbar button = opens an application as an administrator
+   - File Explorer Shortcuts:
+		- "Ctrl" + "N" = opens a new window
+		- "Ctrl" + "W" = closes the active window
+   - "Windows key" + "D" = displays and hide the desktop
+   - "Windows key" + "E" = opens the File Explorer
+   - "Windows key" + "I" = opens Windows Settings
+   - "Windows key" + "comma ',' " = lets you temporarily peek at the desktop
+   - "Windows key" + "Shift" + "S" = this will take a screenshot of part of  your screen (you can freely select what is being screenshot-ed)
+		> to send the screenshot simply press "Ctrl" + "V" in the chat- or text box if you want to save it open any image editor and press "Ctrl" + "V", now you can save the project/screenshot
