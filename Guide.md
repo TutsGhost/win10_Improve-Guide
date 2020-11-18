@@ -1,4 +1,4 @@
-# The Ultimate Guide for Gamers and Day-to-Day-Users of Win10!!
+# The Ultimate Guide for Gamers and Day-to-Day-Users of Win10
 
 ---
 ## INDEX:
