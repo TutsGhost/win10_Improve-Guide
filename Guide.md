@@ -1,9 +1,9 @@
 # The Ultimate Guide for Gamers and Day-to-Day-Users of Win10!!
 
-## INDEX
+---
+## INDEX:
 
-
-### [Windows 10](#windows-10)
+### [1. Windows 10](#windows-10)
 - Prevent needing to restart your PC on program crashes
 - Windows 10 Telemetry, Cortana and More
 - Debloat Windows 10 !!Caution advised!!
@@ -17,7 +17,7 @@
 - Set File Explorer to open "This PC" as default
 
 
-### [Browser Configuration](#browser-configuration)
+### [2.Browser Configuration](#browser-configuration)
 - How to set up your Firefox Browser
 - How to set up your Brave Browser
 - How to set up your Un-Googled Chromium
@@ -26,7 +26,7 @@
 
 
 
-### [Body, Posture and Health](#body-posture-and-health)
+### [3. Body, Posture and Health](#body-posture-and-health)
 - Prevent back pain
 - Hand + wrist exercises
 - Improve and train your eyesight
@@ -38,7 +38,7 @@
 - How improve your chair and desk setup
 
 
-### [Mouse](#mouse)
+### [4. Mouse](#mouse)
 - Grip styles
 - What mouse to use
 - How to find a sensitivity that sticks for you (FPS Games)
@@ -46,14 +46,14 @@
 
 
 
-### [Keyboard](#keyboard)
+### [5. Keyboard](#keyboard)
 - Learn the HOT and TRENDY keyboard terms
 - How to safely clean your keyboard
 - Useful shortcuts for Windows users
 
-------------------------------------------------------------------------------------------
+---
 
-## Windows 10 
+## Windows 10
 
 #### Enhancing and debloating your windows should help not only your sanity but also your PCs performance
 
