@@ -78,7 +78,7 @@
 
 	This topic is about a debloating script i forked and worked on as best as i can, i will try to explain exactly what this script will be doing.
   
-  You can find the list of programs you can install [HERE](programmlist/programlist.md)
+  You can find the list of programs you can install [HERE](programlist/programlist.md)
   
     This will do the following steps/functions:
 
