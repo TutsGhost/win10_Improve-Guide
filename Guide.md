@@ -371,10 +371,10 @@ Finding the right mouse and actually improving your movement will do wonders for
 
 
 - What mouse to use:
-[Explaining what you can do so you can find the best mouse for that suits you](https://www.youtube.com/watch?v=QVI3mepUHuE)
+[Explaining what you can do to find the best mouse for your needs](https://www.youtube.com/watch?v=QVI3mepUHuE)
 
 
-- How to find a sensitivity that sticks for you (FPS Games)
+- How to find a sensitivity that will work for you (FPS Games)
 [Video Guide](https://www.youtube.com/watch?v=FLHEn2U7CVw)
 
 
