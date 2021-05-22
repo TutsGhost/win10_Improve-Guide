@@ -186,14 +186,14 @@ If you have problems with windows update it can cause quite a hassle
    7. Delete everything in that folder and paste all files from profile.zip in there -> you can close the folder
    8. Now go back to your Firefox about:config window and press "F5", search for your profile named Main
    9. Click on "Set as default profile" and restart your Firefox
-		9a. On the right hand side click on the menu button -> Options -> Files and Applications (its in General when you scroll down)
-		9b. Check if its set to "Ask every time where to save the file to" if not select it.
-		9c. Go to "Home" -> "Homepage and New Tab" change it to User defined address
-		9d. Paste this in: https://duckduckgo.com/
-		9e. Go to "Search" and change the Default Search-engine to DuckDuckGo instead of Google!!
-		9f. Scroll down and remove every search engine except DuckDuckGo and Startpage
-		9g. Click the menu icon on the top right -> "Add-Ons" -> click on the cogwheel symbol -> "Check for Updates"
-		9h. Follow the "uBlock Origin Settings" topic in this guide
+		1. On the right hand side click on the menu button -> Options -> Files and Applications (its in General when you scroll down)
+		2. Check if its set to "Ask every time where to save the file to" if not select it.
+		3. Go to "Home" -> "Homepage and New Tab" change it to User defined address
+		4. Paste this in: https://duckduckgo.com/
+		5. Go to "Search" and change the Default Search-engine to DuckDuckGo instead of Google!!
+		6. Scroll down and remove every search engine except DuckDuckGo and Startpage
+		7. Click the menu icon on the top right -> "Add-Ons" -> click on the cogwheel symbol -> "Check for Updates"
+		8. Follow the "uBlock Origin Settings" topic in this guide
    10. Your Firefox is now ready to go!
 
 
@@ -240,23 +240,23 @@ If you have problems with windows update it can cause quite a hassle
 This will explain how to set up your Extension to the best settings without breaking any site (meaning functions not working or logins failing)
 
 1. On the top right side of the browser should be a red shield icon ![Icon](images/ubosymbole.png), click on that -> click on this ![icon](images/UblockOverview.jpg)
-		1a. Checkmark all the options "Prevent WebRTC from leaking local IP addresses" and "Block CSP reports" on the "Privacy" column
-		1b. Click on "Filter lists" in the upper corner -> click on "[Number] network filters ＋ [Number] cosmetic filters from:" ![Topic](images/Filter%20Header.png)
-		1c. Checkmark everything as follows [Link](images/uBlock%20Filter1.png) and [Link](images/uBlock%20Filter2.png)
-		1d. "Apply changes" -> "Update now"
-		1e. Follow to this [link](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) and follow the "Extra installation steps 		    for uBlock Origin" instructions, to "Subscribe" simply click on the Hyperlink and press OK on the Popup Window.
+- Checkmark all the options "Prevent WebRTC from leaking local IP addresses" and "Block CSP reports" on the "Privacy" column
+2. Click on "Filter lists" in the upper corner -> click on "[Number] network filters ＋ [Number] cosmetic filters from:" ![Topic](images/Filter%20Header.png)
+- Checkmark everything as follows [Link](images/uBlock%20Filter1.png) and [Link](images/uBlock%20Filter2.png)
+- "Apply changes" -> "Update now"
+3. Follow to this [link](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) and follow the "Extra installation steps 		    	    for uBlock Origin" instructions, to "Subscribe" simply click on the Hyperlink and press OK on the Popup Window.
 
 
 ### Recommended Add-Ons (mainly focused for Firefox (the Mozilla addons page))
 
-Less is better, the ones with a (*) are the ones i deem as important. Don't use any antivirus or vpn addons not only are they not very effective as you might think, they are also very big privacy concerns!!
+Less is better, the ones with a (+) are the ones i deem as important. Don't use any antivirus or vpn addons not only are they not very effective as you might think, they are also very big privacy concerns!!
 
-- Ublock Origin: It is not just an "ad blocker", it's a wide-spectrum content blocker
+- (+)Ublock Origin: It is not just an "ad blocker", it's a wide-spectrum content blocker
 - Privacy Badger: Intelligent blocker for tracking, this addon learns from your browsing behaviour and gets stronger the longer you use it
-- HTTPS Everywhere: An extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it
+- (+)HTTPS Everywhere: An extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it (Obsolete in Firefox)
 - NeatURL: Clears unneeded parameters from urls to keep them understandable and short
-- ClearURLS: Gets rid of unneeded parameters including ones that track you
-- Decentraleyes: Protects you against tracking through content delivery services
+- (+)ClearURLS: Gets rid of unneeded parameters including ones that track you
+- (+)LocalCDN: Protects you against tracking through content delivery services
 - CSS Exfil Protection							Protection against the CSS Exfil Exploit used to track you
 - Smart Referer									   	Improve your privacy by limiting Referrer information leaks
 - Canvas Blocker									  Blocks you against Canvas-Fingerprinting
@@ -266,7 +266,6 @@ Less is better, the ones with a (*) are the ones i deem as important. Don't use 
 - Terms of Service; Didn't Read			Shows you how "friendly" the Terms of Service of a website are through a grading system
 - Bloody Vikings!									  Make spam email addresses on the fly
 - Dark Reader										    No longer get blinded by white websites
-- Don't touch my tabs!      				Tell Tabs not to spy on each other
 - Disconnect										    Visualize and block the otherwise invisible websites that track your search and browsing history (the same as uBlock Origin or Privacy Badger)
 - KeePassXC-Browser									Add-On for your KeepassXC, no longer tedious logins on websites
 - Bitwarden											    Passwordmanager for your browser
@@ -324,7 +323,7 @@ Fight against soreness, pain and bad posture. Work on your Health/Body. Trust me
 - How to stay calm and make rational decisions
 [Instruction Video](https://youtu.be/5ddI9KWHZ6U?t=19)
 
-   > Also you can press down on your inner palm of your Hand, in the center of it, with the thumb of your other hand, this is a calming technique that might work for you.
+   > Also you can press down on your inner palm of your hand, in the center of it, with the thumb of your other hand, this is a calming technique that might work for you.
 [Example Video](https://www.youtube.com/watch?v=FJ77DYyfI0w)
 
 
@@ -357,7 +356,7 @@ Fight against soreness, pain and bad posture. Work on your Health/Body. Trust me
 
 - How to setup and improve your chair and desk
 [Instruction Video](https://www.youtube.com/watch?v=UW_z6bCy1ZI)
-Also be sure to get a footrest; not only is it really comfy but it is also not in the way if you buy a tiny hammock for your feet as the footrest ;)
+Also be sure to get a footrest; not only is it really comfy, but it's also not in the way if you buy a tiny hammock for your feet as a solution ;)
 
 
 
@@ -384,10 +383,11 @@ Finding the right mouse and actually improving your movement will do wonders for
 
 
 - How to change out your mouse cable
-This Tutorial shows you how to safely change your rubber cable to a paracord one, its pretty easy to explain why this is good: paracord cables are more durable meaning it will hold waaaay longer than those rubber cables
+This Tutorial shows you how to safely change your rubber cable to a paracord one. 
+Here is why this is good: paracord cables are more durable meaning it will hold waaaay longer than those rubber cables
 [Video Guide](https://www.youtube.com/watch?v=HlxCfYajXLU)
 
-   > https://paracablemods.co.uk/ where you can get the corded cables (paracords)
+   > https://paracablemods.co.uk/ this is where you can get the corded cables (paracords)
 
 
 
