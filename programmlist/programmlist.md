@@ -4,25 +4,25 @@
 ---
 ## INDEX:
 
-### [1. Recommended programs](#recommended-programs)
+### [1. Recommended programs](#1-recommended-programs-1)
 
-### [2. Configuration-/Multitools](#configuration-multitools)
+### [2. Configuration-/Multitools](#2-configuration-multitools-1)
 
-### [3. Info-Tools](#info-tools)
+### [3. Info-Tools](#3-info-tools-1)
 
-### [4. Communicative programs](#communicative-programs)
+### [4. Communicative programs](#4-communicative-programs-1)
 
-### [5. Imageview/tools](#imageview-tools)
+### [5. Imageview/tools](#5-imageviewtools-1)
 
-### [6. Media programs](#media-programs)
+### [6. Media programs](#6-media-programs-1)
 
-### [7. Screenrecording programs](#screenrecording-programs)
+### [7. Screenrecording programs](#7-screenrecording-programs-1)
 
-### [8. Painting-Tools](#painting-tools)
+### [8. Painting-Tools](#8-painting-tools-1)
 
-### [9. Texteditor programs](#texteditor-programs)
+### [9. Texteditor programs](#9-texteditor-programs-1)
 
-### [10. Privacy&Security-Tools](#privacy&security-tools)
+### [10. Privacy&Security-Tools](#10-privacysecurity-tools-1)
 
 
 ---
