@@ -17,7 +17,7 @@
 - Set File Explorer to open "This PC" as default
 
 
-### [2.Browser Configuration](#browser-configuration)
+### [2. Browser Configuration](#browser-configuration)
 - How to set up your Firefox Browser
 - How to set up your Brave Browser
 - How to set up your Un-Googled Chromium
@@ -257,20 +257,20 @@ Less is better, the ones with a (+) are the ones i deem as important. Don't use 
 - NeatURL: Clears unneeded parameters from urls to keep them understandable and short
 - (+)ClearURLS: Gets rid of unneeded parameters including ones that track you
 - (+)LocalCDN: Protects you against tracking through content delivery services
-- CSS Exfil Protection							Protection against the CSS Exfil Exploit used to track you
-- Smart Referer									   	Improve your privacy by limiting Referrer information leaks
-- Canvas Blocker									  Blocks you against Canvas-Fingerprinting
-- xBrowserSync										  Sync up your browser securely even across devices
-- Chameleon										    	A User-Agent-Switcher packed with a lot of privacy enhancing features
-- User-Agent Switcher and Manager		Spoof the "User Agent Header" that gets send
-- Terms of Service; Didn't Read			Shows you how "friendly" the Terms of Service of a website are through a grading system
-- Bloody Vikings!									  Make spam email addresses on the fly
-- Dark Reader										    No longer get blinded by white websites
-- Disconnect										    Visualize and block the otherwise invisible websites that track your search and browsing history (the same as uBlock Origin or Privacy Badger)
-- KeePassXC-Browser									Add-On for your KeepassXC, no longer tedious logins on websites
-- Bitwarden											    Passwordmanager for your browser
-- Image Search Options							Right-click on an image and you will get an option between differOnsOnsent search engines where you can check if it has been uploaded somewhere else
-- JavaScript Switcher								Turn off JavaScript on sites, this can enhance your privacy but will also break some sites
+- CSS Exfil Protection:							Protection against the CSS Exfil Exploit used to track you
+- Smart Referer:									   	Improve your privacy by limiting Referrer information leaks
+- Canvas Blocker:									  Blocks you against Canvas-Fingerprinting
+- xBrowserSync:										  Sync up your browser securely even across devices
+- Chameleon:										    	A User-Agent-Switcher packed with a lot of privacy enhancing features
+- User-Agent Switcher and Manager:		Spoof the "User Agent Header" that gets send
+- Terms of Service; Didn't Read:		Shows you how "friendly" the Terms of Service of a website are through a grading system
+- Bloody Vikings!:									  Make spam email addresses on the fly
+- Dark Reader:										    No longer get blinded by white websites
+- Disconnect:										    Visualize and block the otherwise invisible websites that track your search and browsing history (the same as uBlock Origin or Privacy Badger)
+- KeePassXC-Browser:									Add-On for your KeepassXC, no longer tedious logins on websites
+- Bitwarden:											    Passwordmanager for your browser
+- Image Search Options:							Right-click on an image and you will get an option between differOnsOnsent search engines where you can check if it has been uploaded somewhere else
+- JavaScript Switcher:								Turn off JavaScript on sites, this can enhance your privacy but will also break some sites
 
 ### Interface performance boost
 
