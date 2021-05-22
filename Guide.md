@@ -63,19 +63,20 @@
   1. press "Ctrl" + "Shift" + "Esc" (your task manager should be open now
 
 		+ Go into "Options" -> click on "Always on top"
-   		+ now the Task Manager will always be in the front of any application, no Alt+F4 and pc restart fiddling anymore
+   		+ now the Task Manager will always be in the front of any application, no Alt+F4 and pc-restart-fiddeling anymore
 
 
 - Windows 10 Telemetry, Cortana and More (more privacy oriented)
 
    [Download the Programm Privatezilla](https://github.com/builtbybel/privatezilla/releases)
-   1. This should have a tick: Privacy, Cortana, Remove all built-in Apps except Defaults (if you want a clean windows though just tick Bloatware), On "App permissions" tick 	       everything EXCEPT microphone and camera (this ensures that you will be able to use these in certain programs) -> tick:Gaming, Security.
-   2. click on "Apply selected" and check with "Analyze" if the changes have successfully been made
+   1. This should have a tick: Privacy, Cortana, Remove all built-in Apps except Defaults (if you want a clean windows though just tick Bloatware),
+      On "App permissions" tick everything EXCEPT microphone and camera (this ensures that you will be able to use these in certain programs) -> tick: Gaming, Security.
+   2. click on "Apply selected" and check with "Analyze" afterwards if the changes have successfully been made (they should show up highlighted in green)
 
 
 - Debloat Windows 10
 
-	This topic is about a debloating script i forked and worked on as best as i can, i will try to explain exactly what this script will be doing. I made two different scripts depending if you want to get the option to install programs and the debloating or just run the debloating.
+	This topic is about a debloating script i forked and worked on as best as i can, i will try to explain exactly what this script will be doing.
   
   You can find the list of programs you can install here:
   
@@ -88,28 +89,27 @@
     - Remove other bloatware (Candy Crush, Spotify etc.)
     - Set Windows updates to "only security updates" (Don't worry if it says on "updates" that "Some options are managed through your company" are shown on the windows 
       updatepage, this is because the script disables quality updates to only allow security ones) 
-    - Fixes problems that other scripts causes (lock screen and personalization options restricted)
+    - Fixes problems that other scripts are causing (lock screen and personalization options restricted)
 
-		Now the steps to activate the script:
+		Now the steps to run the script:
 		1. Right Click Windows Menu -> Select PowerShell Prompt (Admin) OR Select Command Prompt (Admin)
-		2. Now you can decide between a script running the install prompts or a script running without any.
-		3. type in or paste for no installs: 		
-		  `iex(New-Object Net.WebClient).DownloadString('https://git.io/Jkc16')`
-		4. type in or paste for installs: 
-		  `iex((New-Object System.Net.WebClient).DownloadString('https://git.io/JkZwQ'))`
-		5. now it will run the scripts and do the stuff mentioned above.
+		2. Now you can run the command mentioned in step c. which will download and execute the script from my github account.
+		3. Type in or paste for no installs: 		
+		  `iex(New-Object Net.WebClient).DownloadString('https://git.io/JODRQ')`
+		4. Now to make sure it will start to do a restore point, you will see it gives you the option to freely choose what you want it to do.
+		5. If you are not satisfied with any of the changes you can allways load the restore point that has been made at the start, see instructions how to do that 			   [HERE](https://www.dummies.com/computers/operating-systems/windows-10/how-to-restore-from-a-restore-point-in-windows-10/)
 
 
 #### Programs you should consider downloading
 
-> Important is that nobody said you have, to have them all but some might seem usefull to you, i will mark the ones i deem as important with (*)
+> Important to note is: that you don't have, to have them all. Take a look what you think might be usefull, i will mark the ones i deem as important with (+)
 
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) → this is a program that gathers information on some of the main devices of your system,
    its very handy if you want to look up your Hardware specs (your BIOS can be lied at, CPU-Z is actually good at for example detecting fake hardware)
-- [KeepassXC](https://keepassxc.org/download) → must have password manager, don't argue with me, you need it!
-- [Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime Text](https://www.sublimetext.com/3) → both are great text editors!
-- [Geek Uninstaller](https://geekuninstaller.com/download) → great tool to COMPLETELY get rid of a program, this tool will even delete the registry entries
-- [Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) or [Brave Browser](https://laptop-updates.brave.com/latest/winx64) → both are great browsers to surf the web on. (stay away from Chrome, Opera and Microsoft Edge!!)
+- (+)[KeepassXC](https://keepassxc.org/download) → must have password manager, don't argue with me, you need it!
+- (+)[Notepad++](https://notepad-plus-plus.org/downloads/) or [Sublime Text](https://www.sublimetext.com/3) → both are great text editors!
+- (+)[Geek Uninstaller](https://geekuninstaller.com/download) → great tool to COMPLETELY get rid of a program, this tool will even delete the registry entries
+- (+)[Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/) or [Brave Browser](https://laptop-updates.brave.com/latest/winx64) → both are great browsers to surf the web on. (stay away from Chrome, Opera and Microsoft Edge!!)
 - [Prime95](https://www.mersenne.org/download/) → Prime95 has been a popular choice for stress / torture testing a CPU since its introduction, especially with overclockers and system builders
 - [Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) → manage your executables that launch with windows automatically and more for example the explorer context menu
 - [ImageGlass](https://imageglass.org/download) → one of my favourite image viewing tools
@@ -189,7 +189,7 @@ If you have problems with windows update it can cause quite a hassle
 		9a. On the right hand side click on the menu button -> Options -> Files and Applications (its in General when you scroll down)
 		9b. Check if its set to "Ask every time where to save the file to" if not select it.
 		9c. Go to "Home" -> "Homepage and New Tab" change it to User defined address
-		9d. Paste in this: https://duckduckgo.com/
+		9d. Paste this in: https://duckduckgo.com/
 		9e. Go to "Search" and change the Default Search-engine to DuckDuckGo instead of Google!!
 		9f. Scroll down and remove every search engine except DuckDuckGo and Startpage
 		9g. Click the menu icon on the top right -> "Add-Ons" -> click on the cogwheel symbol -> "Check for Updates"
@@ -239,17 +239,17 @@ If you have problems with windows update it can cause quite a hassle
 
 This will explain how to set up your Extension to the best settings without breaking any site (meaning functions not working or logins failing)
 
-1. On the top right side of the browser should be a red shield icon ![Icon](https://www.imagebanana.com/s/big/1942/8VhS0ifp.png), click on that -> click on this ![icon](https://www.imagebanana.com/s/big/1942/SXpCY32V.png)
+1. On the top right side of the browser should be a red shield icon ![Icon](images/ubosymbole.png), click on that -> click on this ![icon](images/UblockOverview.jpg)
 		1a. Checkmark all the options "Prevent WebRTC from leaking local IP addresses" and "Block CSP reports" on the "Privacy" column
-		1b. Click on "Filter lists" in the upper corner -> click on "[Number] network filters ＋ [Number] cosmetic filters from:" ![Topic](https://www.imagebanana.com/s/big/1942/9vMapX50.png)
-		1c. Checkmark everything as follows [Link](https://www.imagebanana.com/s/big/1942/KOv5KRaI.png) and [Link](https://www.imagebanana.com/s/big/1942/sVtMXuRp.png)
+		1b. Click on "Filter lists" in the upper corner -> click on "[Number] network filters ＋ [Number] cosmetic filters from:" ![Topic](images/Filter%20Header.png)
+		1c. Checkmark everything as follows [Link](images/uBlock%20Filter1.png) and [Link](images/uBlock%20Filter2.png)
 		1d. "Apply changes" -> "Update now"
 		1e. Follow to this [link](https://jspenguin2017.github.io/uBlockProtector/#extra-installation-steps-for-ublock-origin) and follow the "Extra installation steps 		    for uBlock Origin" instructions, to "Subscribe" simply click on the Hyperlink and press OK on the Popup Window.
 
 
 ### Recommended Add-Ons (mainly focused for Firefox (the Mozilla addons page))
 
-Less is better, the ones with a (*) are the ones i deem as important. Don't use any antivirus or vpn addons not only are they not very effective as you might think, they are also a very big privacy issues!!
+Less is better, the ones with a (*) are the ones i deem as important. Don't use any antivirus or vpn addons not only are they not very effective as you might think, they are also very big privacy concerns!!
 
 - Ublock Origin: It is not just an "ad blocker", it's a wide-spectrum content blocker
 - Privacy Badger: Intelligent blocker for tracking, this addon learns from your browsing behaviour and gets stronger the longer you use it
@@ -393,7 +393,7 @@ This Tutorial shows you how to safely change your rubber cable to a paracord one
 
 ## Keyboard
 
-There is nothing much to talk about when it comes to the keyboard, sadly all that makes a difference in choosing a keyboard right now is what type of mechanical keycaps you want to use.
+There is not a lot to talk about when it comes to the keyboard, sadly all that makes a difference in choosing a keyboard right now is what type of mechanical keycaps you want to use.
 Since I think there is nothing other then opinion based videos out there you should try finding the perfect keyboard for yourself.
 
 
