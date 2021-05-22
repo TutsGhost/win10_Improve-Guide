@@ -1,3 +1,3 @@
 # My awsome Guide
 
-see [HERE](Guide.md)
+Click [HERE](Guide.md) to go to the guide.
