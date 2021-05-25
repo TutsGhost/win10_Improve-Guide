@@ -105,7 +105,7 @@
 
 #### Programs you should consider downloading
 
-> Important to note is: that you don't have, to have them all. Take a look what you think might be usefull, i will mark the ones i deem as important with (+)
+> Important to note is: that you don't have, to have them all. Take a look at what you think might be usefull, i will mark the ones i deem as important with (+)
 
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) → this is a program that gathers information on some of the main devices of your system,
    its very handy if you want to look up your Hardware specs (your BIOS can be lied at, CPU-Z is actually good at for example detecting fake hardware)
