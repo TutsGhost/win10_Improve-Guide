@@ -160,6 +160,8 @@
    3. All index tabs at the bottom should be set to 100% after you have done that hit 'Apply'
 
 
+#### Miscellaneous
+
 - Turn off >Mouse Acceleration<
 
   1. Press your "Windows-Key"
