@@ -4,25 +4,28 @@
 ## INDEX:
 
 ### [1. Windows 10](#windows-10)
-- Prevent needing to restart your PC on program crashes
-- Windows 10 Telemetry, Cortana and More
-- Debloat Windows 10 !!Caution advised!!
-- Programs you should consider downloading
-- Check the system for integrity
-- Fixing problems with windows updates
-- CPU and memory performance
-- Turn off >Mouse Acceleration<
-- Stop unneeded background services
-- Interface performance boost
-- Set File Explorer to open "This PC" as default
+- [Enhancing and debloating your windows should help not only your sanity but also your PCs performance](#enhancing-and-debloating-your-windows-should-help-not-only-your-sanity-but-also-your-pcs-performance)
+	+ Prevent needing to restart your PC on program crashes
+	+ Windows 10 Telemetry, Cortana and More
+	+ Debloat Windows 10 !!Caution advised!!
+- [Programs you should consider downloading](#programs-you-should-consider-downloading)
+- [Check the system for integrity](#check-the-system-for-integrity)
+  + Fixing problems with windows updates
+  + CPU and memory performance
+- Miscellaneous
+  + Turn off >Mouse Acceleration<
+  + Stop unneeded background services
+  + Interface performance boost
+  + Set File Explorer to open "This PC" as default
+  
 
 
 ### [2. Browser Configuration](#browser-configuration)
-- How to set up your Firefox Browser
-- How to set up your Brave Browser
-- How to set up your Un-Googled Chromium
-- uBlock Origin Settings
-- Recommended Add-Ons
+- [How to set up your Firefox Browser](#how-to-set-up-your-firefox-browser)
+- [How to set up your Brave Browser](#how-to-set-up-your-brave-browser)
+- [How to set up your Un-Googled Chromium](#how-to-set-up-your-un-googled-chromium)
+- [uBlock Origin Settings](#ublock-origin-settings)
+- [Recommended Add-Ons](#recommended-add-ons-mainly-focused-for-firefox-the-mozilla-addons-page)
 
 
 
@@ -36,6 +39,7 @@
 - Healthier snacks to try while gaming
 - Healthy food to gain energy (real performance boost)
 - How improve your chair and desk setup
+
 
 
 ### [4. Mouse](#mouse)
@@ -58,11 +62,10 @@
 #### Enhancing and debloating your windows should help not only your sanity but also your PCs performance
 
 
-- Prevent needing to restart your PC on program crashes
-
-  1. press "Ctrl" + "Shift" + "Esc" (your task manager should be open now
-
-		+ Go into "Options" -> click on "Always on top"
+   - Prevent needing to restart your PC on program crashes
+        
+      - press "Ctrl" + "Shift" + "Esc" (your task manager should be open now
+		  + Go into "Options" -> click on "Always on top"
    		+ now the Task Manager will always be in the front of any application, no Alt+F4 and pc-restart-fiddeling anymore
 
 
@@ -131,23 +134,22 @@
 - [Parsec Gaming](https://builds.parsecgaming.com/package/parsec-windows.exe) → play local games online with your friends
 
 
-- Check the system for integrity
+#### Check the system for integrity
 
-   - You may want to check your system for integrity issues(especially after updates), run the following in cmd (you can either find it here: "C:\WINDOWS\system32\cmd.exe" or
-   if you type in "cmd" in the search bar on windows):
-		- sfc /scannow
-		- dism /Online /Cleanup-Image /AnalyzeComponentStore /StartComponentCleanup /ResetBase
-		- dism /Online /Cleanup-Image /ScanHealth
-		- dism /Online /Cleanup-Image /RestoreHealth
-!!Be careful this could remove AntiCheat programms running in the image enviroment, this should be safe for most installs though!!
+  - You may want to check your system for integrity issues(especially after updates), run the following in cmd (you can either find it here: "C:\WINDOWS\system32\cmd.exe" 	         or if you type in "cmd" in the search bar on windows):      
+      
+       - sfc /scannow
+       - dism /Online /Cleanup-Image /AnalyzeComponentStore /StartComponentCleanup /ResetBase
+       - dism /Online /Cleanup-Image /ScanHealth
+       - dism /Online /Cleanup-Image /RestoreHealth
+
+!!Be careful, **this could remove AntiCheat-programs** running in the image enviroment, this should be safe for most installs though!!
 
 
 - Fixing problems with windows updates
 
-If you have problems with windows update it can cause quite a hassle
-
-- You can download a diagnostic tool [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors)
-- Let it run and see if it fixes any windows update problems
+     - You can download a diagnostic tool [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors)
+     - Let it run and see if it fixes any windows update problems
 
 
 - CPU and Memory Performance
@@ -170,6 +172,26 @@ If you have problems with windows update it can cause quite a hassle
   1. Press the "Windows-Key" + "R" and type in "msconfig"
   2. Go to "Services" and tick the box that says "exclude all Microsoft services"
   3. Now look for any services that you don't need and untick them (remember to not disable any Anti-Cheat or AntiVirus Services)
+
+- Interface performance boost
+
+This will help you a bit with your pc performance if you have older hardware mostly this is no longer a huge difference
+
+   1. Open "Windows Search" (right click the windows menu -> "Search")
+   2. Type in "Performance" -> click the first result
+   3. Now in visual effects you can turn it to "Adjust for best performance"
+   4. click "Apply"
+
+
+- Set File Explorer to open "This PC" as default
+
+This will remove the "recently opened files" section when you open the file explorer
+
+   1. Press "Windows key" + "I" -> search for "file options" -> click on "File Explorer Options"
+   2. Change "Open File Explorer to" to "This PC"
+   3. At the bottom in the "Privacy" topic untick "Show frequently used folders in quick access
+   4. Click "Apply"
+
 
 
 ## Browser Configuration
@@ -271,26 +293,6 @@ Less is better, the ones with a (+) are the ones i deem as important. Don't use 
 - Bitwarden:											    Passwordmanager for your browser
 - Image Search Options:							Right-click on an image and you will get an option between differOnsOnsent search engines where you can check if it has been uploaded somewhere else
 - JavaScript Switcher:								Turn off JavaScript on sites, this can enhance your privacy but will also break some sites
-
-### Interface performance boost
-
-This will help you a bit with your pc performance if you have older hardware mostly this is no longer a huge difference
-
-   1. Open "Windows Search" (right click the windows menu -> "Search")
-   2. Type in "Performance" -> click the first result
-   3. Now in visual effects you can turn it to "Adjust for best performance"
-   4. click "Apply"
-
-
-- Set File Explorer to open "This PC" as default
-
-This will remove the "recently opened files" section when you open the file explorer
-
-   1. Press "Windows key" + "I" -> search for "file options" -> click on "File Explorer Options"
-   2. Change "Open File Explorer to" to "This PC"
-   3. At the bottom in the "Privacy" topic untick "Show frequently used folders in quick access
-   4. Click "Apply"
-
 
 
 ## Body, Posture and Health
