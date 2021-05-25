@@ -12,7 +12,7 @@
 - [Check the system for integrity](#check-the-system-for-integrity)
   + Fixing problems with windows updates
   + CPU and memory performance
-- Miscellaneous
+- [Miscellaneous](#miscellaneous)
   + Turn off >Mouse Acceleration<
   + Stop unneeded background services
   + Interface performance boost
