@@ -64,9 +64,9 @@
 
    - Prevent needing to restart your PC on program crashes
         
-      - press "Ctrl" + "Shift" + "Esc" (your task manager should be open now
-		  + Go into "Options" -> click on "Always on top"
-   		+ now the Task Manager will always be in the front of any application, no Alt+F4 and pc-restart-fiddeling anymore
+      + press "Ctrl" + "Shift" + "Esc" (your task manager should open up now)
+      + Go into "Options" -> click on "Always on top"
+      + now the Task Manager will always be in the front of any application, no Alt+F4 and pc-restart-fiddeling anymore
 
 
 - Windows 10 Telemetry, Cortana and More (more privacy oriented)
